@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Restaurantly Bootstrap Template - Index</title>
+  <title>TIKUM COOKERY AND COFFEE</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon1.png" rel="icon">
+  <link href="assets/img/icon1.png" rel="icon1">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -42,7 +42,7 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Restaurantly</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Tikumitikal</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -65,8 +65,8 @@
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1>Welcome to <span>Restaurantly</span></h1>
-          <h2>Delivering great food for more than 18 years!</h2>
+          <h1><span>Menu</span></h1>
+          <h2>Amazing Taste &amp; Beautiful Place</h2>
 
           <div class="btns">
             <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
@@ -90,25 +90,15 @@
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
             <div class="about-img">
-              <img src="assets/img/about.jpg" alt="">
+              <img src="assets/img/menu1.jpg" alt="">
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <span class="subheading">Discover</span>
+            <h3>Our Menu</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
+            Tikum cookery and coffee menyajikan perpaduan budaya lokal Indonesia melalui aneka menu minuman kopi yang diolah dari biji kopi pilihan. 
+            Minuman coffee kami diracik menggunakan rempah pemanis sehingga memberikan kesan kuat dengan dominasi pahitnya yang masih terasa.</p>
           </div>
         </div>
 
@@ -285,7 +275,7 @@
           <div class="col-lg-3">
             <ul class="nav nav-tabs flex-column">
               <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Modi sit est</a>
+                <a class="nav-link active show" data-bs-toggle="tab-1" href="#tab-1">Modi sit est</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Unde praesentium sed</a>
@@ -295,9 +285,6 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Nostrum qui quasi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Iusto ut expedita aut</a>
               </li>
             </ul>
           </div>
@@ -351,16 +338,6 @@
                   </div>
                 </div>
               </div>
-              <div class="tab-pane" id="tab-5">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Est eveniet ipsam sindera pad rone matrelat sando reda</h3>
-                    <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
-                    <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae voluptate vel</p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/specials-5.png" alt="" class="img-fluid">
-                  </div>
                 </div>
               </div>
             </div>

@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Restaurantly Bootstrap Template - Index</title>
+  <title>TIKUM COOKERY AND COFFEE</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon1.png" rel="icon">
+  <link href="assets/img/icon1.png" rel="icon1">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -65,8 +65,8 @@
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1>Welcome to <span>Restaurantly</span></h1>
-          <h2>Delivering great food for more than 18 years!</h2>
+          <h1>Welcome to <span>Tikumitikal</span></h1>
+          <h2>The Best Coffee Testing Experience</h2>
 
           <div class="btns">
             <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>

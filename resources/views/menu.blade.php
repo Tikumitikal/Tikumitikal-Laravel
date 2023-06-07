@@ -144,7 +144,7 @@
                   <div class="col-lg-8 details order-2 order-lg-1">
                     <h3>CHICKEN BARBEQUE SAUCE</h3>
                     <p class="fst-italic">Rp 18.000,-</p>
-                    <p>Hidangan dengan komponen utama yakni ayam yang diolah menjadi ayam krispi 
+                    <p>Hidangan dengan komponen utama yakni olahan ayam krispi 
                       dengan tambahan saus barbeque yang khas beserta combo nasi panas dan salad sayuran segar dijamin nikmat</p>
                   </div>
                   <div class="col-lg-4 text-center order-1 order-lg-2">
@@ -270,7 +270,7 @@
             </div>
             <div class="menu-ingredients">
               Espresso dengan seduhan air panas menciptakan rasa espresso yang soft tapi tetap komples,
-              tercipta dari perpaduan espresso, gula dan es batu
+              terbuat dari perpaduan espresso, gula dan es batu
             </div>
           </div>
 
@@ -322,7 +322,7 @@
               <a href="#">Robusta Drip</a><span>Rp 11.000</span>
             </div>
             <div class="menu-ingredients">
-              Sajian minuman yang terbuat dari kopi robusta dengan seduhan air panas
+              Sajian minuman yang terbuat dari biji kopi robusta yang doseduh dengan driper filter Vietnam drip
             </div>
           </div>
 
@@ -351,10 +351,10 @@
           <div class="col-lg-6 menu-item filter-milk">
             <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
             <div class="menu-content">
-              <a href="#">Tuscan Grilled</a><span>$9.95</span>
+              <a href="#">Chocolate Hot</a><span>Rp 14.000</span>
             </div>
             <div class="menu-ingredients">
-              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+              Minuman dengan kombinasi powder cokelat
             </div>
           </div>
 

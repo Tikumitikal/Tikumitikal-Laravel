@@ -14,24 +14,25 @@ use App\Http\Controllers\UserController;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('landing.index');
+});
+
+Route::get('/index', function () {
+    return view('landing.index');
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('landing.about');
 });
 
 Route::get('/menu', function () {
-    return view('menu');
+    return view('landing.menu');
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+    return view('landing.contact');
 });
 
-Route::get('/login', function () {
-    return view('login');
-});
 
 Route::post('register',[UserController::class,'register']);
 Route::post('login',[UserController::class,'login']);

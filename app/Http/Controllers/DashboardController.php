@@ -43,7 +43,7 @@ class DashboardController extends Controller
 
         $totalreservasibulanini = Reservasi::whereMonth('created_at', date('m'))->count();
 
-        return view('admin.pages.index', [
+        return view('admin.pages.dashboard', [
             'totalproduct' => $totalproduct,
             'totaluser' => $totaluser,
             'totalreservasibulanini' => $totalreservasibulanini,

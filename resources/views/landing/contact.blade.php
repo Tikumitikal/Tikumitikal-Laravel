@@ -42,7 +42,7 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html">Tikumitikal</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="/">Tikumitikal</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -55,7 +55,7 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
-      <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">Book a table</a>
+      <a href="/contact" class="book-a-table-btn scrollto d-none d-lg-flex">Visit Us</a>
 
     </div>
   </header><!-- End Header -->
@@ -84,7 +84,7 @@
       </div>
 
       <div data-aos="fade-up">
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+     <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.263098821849!2d113.71704407690923!3d-8.176228470853385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd69571c3a4c8cb%3A0x13fee27103140738!2sTikum%20Cookery%20%26%20coffee!5e0!3m2!1sid!2sid!4v1686368161146!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
       <div class="container" data-aos="fade-up">
@@ -96,7 +96,7 @@
               <div class="address">
                 <i class="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Klaster Mutiara Puncak No.A4, Jember 68132</p>
               </div>
 
               <div class="open-hours">
@@ -104,20 +104,20 @@
                 <h4>Open Hours:</h4>
                 <p>
                   Monday-Saturday:<br>
-                  11:00 AM - 2300 PM
+                  10:00 AM - 00:00 PM
                 </p>
               </div>
 
               <div class="email">
                 <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
+                <h4>Instagram:</h4>
+                <p>tikum.cookeryandcoffee</p>
               </div>
 
               <div class="phone">
                 <i class="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
+                <p>+0813 3403 4507</p>
               </div>
 
             </div>
@@ -126,10 +126,11 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="/store" enctype="multipart/form-data" method="post" role="form" class="php-email-form">
+                @csrf
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <input type="text" name="nama" class="form-control" id="nama" placeholder="Your Name" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
@@ -139,14 +140,9 @@
                 <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
               </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
+                <textarea type="text" class="form-control" name="deskripsi" id="deskripsi" rows="8" placeholder="Message" required></textarea>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit" value="Add">Send Message</button></div>
             </form>
 
           </div>
@@ -164,56 +160,39 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h3>Restaurantly</h3>
+              <h3>Tikum Cookery And Coffee</h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+              Klaster Mutiara Puncak No.A4, <br>
+              Jember 68132
+              <br><br>
+              <strong>Phone:</strong> +0813 3403 4507<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://gofood.co.id/jember/restaurant/tikum-cookery-coffee-klaster-mutiara-puncak-semeru-660e9c8f-ce23-4ff3-a23c-a82937604428" ><i class="bx bx-cart"></i></a>
+                <a href="https://www.facebook.com/people/TIKUM/100063770221738/?paipv=0&eav=AfYFWT3u4NcH3NylOp1JW8P10Y4GznD3tY2ZMclUrZqru1nZB98sCtoGFSazRZ_XwvE&_rdr" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/tikum.cookeryandcoffee/" class="instagram"><i class="bx bxl-instagram"></i></a>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>OPEN HOURS</h4>
+            <p>Monday to Saturday</p>
+            <p>From 10:00 AM to 00:00 PM</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>OUR SERVICES</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i>Slow Bar</a></li>
+              <li><i class="bx bx-chevron-right"></i>Fresh Coffe Ground</a></li>
+              <li><i class="bx bx-chevron-right"></i>Best Food</a></li>
+              <li><i class="bx bx-chevron-right"></i>Online Reservation</a></li>
+              <li><i class="bx bx-chevron-right"></i>Best Customer Service</a></li>
             </ul>
           </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
-
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('tb_meja', function (Blueprint $table) {
+        Schema::create('tb_contact', function (Blueprint $table) {
             $table->id('contact_id');
             $table->string('nama');
             $table->string('email');

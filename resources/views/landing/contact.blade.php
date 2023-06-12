@@ -126,7 +126,7 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="/store" enctype="multipart/form-data" method="post" role="form" class="php-email-form">
+            <form action="/store" method="post" role="form" class="php-email-form">
                 @csrf
               <div class="row">
                 <div class="col-md-6 form-group">

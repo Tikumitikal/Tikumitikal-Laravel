@@ -8,6 +8,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\MejaController;
 use App\Http\Controllers\ReservasiController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\Controller;
 
 
 /*
@@ -40,6 +41,8 @@ Route::get('/menu', function () {
 Route::get('/contact', function () {
     return view('landing.contact');
 });
+
+Route::post('/store',[Controller::class,'store']);
 
 
 Route::get('/login', [AuthController::class, 'index'])->middleware('IsStay');

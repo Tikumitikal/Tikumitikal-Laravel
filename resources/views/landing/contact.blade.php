@@ -42,7 +42,7 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="/">Tikumitikal</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="/">Titik Kumpul</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -64,7 +64,7 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
-        <div class="col-lg-8 text-center">
+        <div class="col-lg-8">
           <h1>Contact<span> Us</span></h1>
         </div>
       </div>
@@ -78,8 +78,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contact</h2>
-          <p>Contact Us</p>
+          <h2>Tikum Maps</h2>
         </div>
       </div>
 

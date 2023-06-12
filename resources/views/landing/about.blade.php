@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Restaurantly Bootstrap Template - Index</title>
+  <title>TIKUM COOKERY AND COFFEE</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -42,7 +42,7 @@
     <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="/">Tikumitikal</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="/">Titik Kumpul</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -65,7 +65,7 @@
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1>Welcome to <span>Tikumitikal</span></h1>
+          <h1>Welcome to <span>TIKUM</span></h1>
           <h2>Delivering great foods and drinks</h2>
 
           <div class="btns">
@@ -90,12 +90,10 @@
             </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-            <h3>Tikum Cookery and Coffee berdiri pada bulan februari tahun 2022 oleh sekumpulan penikmat kopi dari kota jember</h3>
-            <p class="fst-italic">
-            Pemilihan nama “TIKUM” sendiri diambil dengan harapan tempat ini dapat menjadi tempat berkumpulnya masyarakat dari berbagai kalangan dan background yang berbeda, untuk dapat berbaur saling bertukar pikiran dan harapan.
-            </p>
-            <p>
-            Dalam proses penyajian aneka minuman, kopi khususnya. TIKUM menyuguhkan nuansa yang berbeda, dimana pengunjung dapat menikmati aneka minuman dan kopi senyaman di rumah namun tetap terjaga kualitas hasil seduhannya dengan berbagai variasi metode seduh untuk mendapatkan citarasa yang berbeda
+            <h3><p style="text-align:center">TIKUM "Titik Kumpul"</p></h3>
+            <p style="text-align:justify"> 
+              Tikum Cookery and Coffee berdiri pada bulan februari tahun 2022 oleh sekawanan penikmat kopi di kota jember. Pemilihan nama “TIKUM” sendiri diambil dengan harapan tempat ini dapat menjadi tempat berkumpulnya masyarakat dari berbagai kalangan dan background yang berbeda, untuk dapat berbaur saling bertukar pikiran dan harapan. 
+              Dalam proses penyajian aneka minuman, kopi khususnya. TIKUM menyuguhkan nuansa yang berbeda, dimana pengunjung dapat menikmati aneka minuman dan kopi senyaman di rumah namun tetap terjaga kualitas hasil seduhannya dengan berbagai variasi metode seduh untuk mendapatkan citarasa yang berbeda.
             </p>
           </div>
         </div>
@@ -119,64 +117,64 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/foto1.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/foto1.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/foto2.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/foto2.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/foto3.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/foto3.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/foto4.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/foto4.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/foto5.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/foto5.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/foto6.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/foto6.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/foto7.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/foto7.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/foto8.png" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/foto8.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
@@ -185,46 +183,6 @@
 
       </div>
     </section><!-- End Gallery Section -->
-
-    <!-- ======= Chefs Section ======= -->
-    <section id="chefs" class="chefs">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Chefs</h2>
-          <p>Our Proffesional Chefs</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="100">
-              <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="200">
-              <img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="member" data-aos="zoom-in" data-aos-delay="300">
-              <img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Chefs Section -->
 
   </main><!-- End #main -->
 

@@ -42,7 +42,7 @@
    <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="/">Tikumitikal</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="/">Titik Kumpul</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -185,6 +185,7 @@
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-espresso">Espresso Based</li>
               <li data-filter=".filter-manual">Manual Brewing</li>
+              <li data-filter=".filter-milk">Milk Based</li>
               <li data-filter=".filter-fresh">Fresh From Tikum</li>
               <li data-filter=".filter-food">Food</li>
               <li data-filter=".filter-snack">Snack</li>
@@ -210,8 +211,7 @@
               <a href="#">Caphucinno</a><span>Rp 17.000</span>
             </div>
             <div class="menu-ingredients">
-              Perpaduan antara espresso dan susu yang memiliki cita rasa lebih strong,
-              memberikanmu semangat untuk melanjutkan ativitas harianmu
+              Perpaduan antara espresso dan susu yang memiliki cita rasa lebih strong, memberikanmu semangat untuk melanjutkan ativitas harianmu
             </div>
           </div>
 
@@ -221,8 +221,7 @@
               <a href="#">Americano Ice</a><span>Rp 14.000</span>
             </div>
             <div class="menu-ingredients">
-              Espresso dengan seduhan air dan tambahan es batu menghasilkan rasa espresso yang soft serta kompleks
-              dengan sensasi dingin
+              Espresso dengan seduhan air dan tambahan es batu menghasilkan rasa espresso yang soft serta kompleks dengan sensasi dingin
             </div>
           </div>
 
@@ -232,8 +231,7 @@
               <a href="#">Coffe Latte</a><span>Rp 17.000</span>
             </div>
             <div class="menu-ingredients">
-              Perpaduan antara espresso dan susu yang memiliki cita rasa soft,
-              cocok untuk mencerahkan hari agar lebih bewarna
+              Perpaduan antara espresso dan susu yang memiliki cita rasa soft, cocok untuk mencerahkan hari agar lebih bewarna
             </div>
           </div>
 
@@ -243,18 +241,17 @@
               <a href="#">Sanger</a><span>Rp 15.000</span>
             </div>
             <div class="menu-ingredients">
-              Sering disebut "Bonbon Coffe" espresso dan susu kondensasi
+              Sering disebut “Bonbon Coffee” espresso dan susu kondensasi
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-espresso">
-            <img src="assets/img/menu/coffeemilkice.jpg" class="menu-img" alt="">
+            <img src="assets/img/menu/coffeemilk.jpg" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Iced Coffee Milk</a><span>Rp 17.000</span>
             </div>
             <div class="menu-ingredients">
-              Perpaduan ektra espresso dan susu yang memiliki cita rasa strong,
-              memberikanmu semangat untuk menjalani aktivitas sehari-hari
+              Perpaduan ektra espresso dan susu yang memiliki cita rasa strong, memberikanmu semangat untuk menjalani aktivitas sehari-hari
             </div>
           </div>
 
@@ -264,8 +261,7 @@
               <a href="#">Shakerato</a><span>Rp 15.000</span>
             </div>
             <div class="menu-ingredients">
-              Espresso dengan seduhan air panas menciptakan rasa espresso yang soft tapi tetap komples,
-              tercipta dari perpaduan espresso, gula dan es batu
+              Espresso dengan seduhan air panas menciptakan rasa espresso yang soft tapi tetap komples, terbuat dari perpaduan espresso, gula dan es batu
             </div>
           </div>
 
@@ -285,7 +281,7 @@
               <a href="#">Arabika Tubruk</a><span>Rp 12.000</span>
             </div>
             <div class="menu-ingredients">
-            Sajian minuman yang terbuat dari biji kopi arabika dengan seduhan air panas
+              Sajian minuman yang terbuat dari biji kopi arabika dengan seduhan air panas
             </div>
           </div>
 
@@ -295,8 +291,7 @@
               <a href="#">Robusta Tubruk Susu</a><span>Rp 11.000</span>
             </div>
             <div class="menu-ingredients">
-            Sajian minuman yang terbuat dari biji kopi robusta dan
-            susu kondensasi dengan seduhan air panas
+              Sajian minuman yang terbuat dari biji kopi robusta dan susu kondensasi dengan seduhan air panas
             </div>
           </div>
 
@@ -306,8 +301,7 @@
               <a href="#">Coffee Filter Hot/V60</a><span>Rp 14.000</span>
             </div>
             <div class="menu-ingredients">
-              Sajian minuman yang terbuat dari biji single origin dengan seduhan air panas
-              menggunakan driper filter
+              Sajian minuman yang terbuat dari biji single origin dengan seduhan air panas menggunakan driper filter
             </div>
           </div>
 
@@ -317,7 +311,7 @@
               <a href="#">Robusta Drip</a><span>Rp 11.000</span>
             </div>
             <div class="menu-ingredients">
-              Sajian minuman yang terbuat dari kopi robusta dengan seduhan air panas
+              Sajian minuman yang terbuat dari biji kopi robusta yang diseduh dengan driper filter Vietnam drip
             </div>
           </div>
 
@@ -327,8 +321,7 @@
               <a href="#">Coffee Filter Ice/Japanesse</a><span>Rp 16.000</span>
             </div>
             <div class="menu-ingredients">
-              Sajian minuman yang terbuat dari biji single origin dengan seduhan air dingin
-              menggunakan driper filter
+              Sajian minuman yang terbuat dari biji single origin dengan seduhan air dingin menggunakan driper filter
             </div>
           </div>
 
@@ -338,148 +331,237 @@
               <a href="#">Robusta Drip Susu</a><span>Rp 12.000</span>
             </div>
             <div class="menu-ingredients">
-            Sajian minuman yang terbuat dari biji kopi robusta dan
-            susu kondensasi yang diseduh dengan driper filter Vietnam drip
+              Sajian minuman yang terbuat dari biji kopi robusta dan susu kondensasi yang diseduh dengan driper filter Vietnam drip
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-milk">
+            <img src="assets/img/menu/vanillahot.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Vanilla Hot</a><span>Rp 14.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Sajian minuman hangat yang terbuat dari powder vanila dengan tambahan susu
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-milk">
+            <img src="assets/img/menu/matchaice.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Matcha Ice</a><span>Rp 16.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Sajian minuman dingin yang terbuat dari powder matcha dengan tambahan susu
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-milk">
+            <img src="assets/img/menu/chocolatehot.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Chocolate Hot</a><span>Rp 14.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Sajian minuman hangat yang terbuat dari powder coklat dengan tambahan susu
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-milk">
+            <img src="assets/img/menu/redvelvethot.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Red Velvet Hot</a><span>Rp 16.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Sajian minuman hangat yang terdiri dari powder redvelvet dengan tambahan susu yang membuat rasa lebih creamy
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-milk">
+            <img src="assets/img/menu/vanillaice.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Vanilla Ice</a><span>Rp 15.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Sajian minuman dingin yang terbuat dari powder vanila dengan tambahan susu
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-milk">
+            <img src="assets/img/menu/redvelvetice.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Red Velvet Ice</a><span>Rp 17.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Sajian minuman dingin yang terdiri dari powder redvelvet dengan tambahan susu yang membuat rasa lebih creamy
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-milk">
+            <img src="assets/img/menu/chocolateice.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Chocolate Ice</a><span>Rp 15.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Sajian minuman dingin yang terbuat dari powder coklat dengan tambahan susu
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-milk">
+            <img src="assets/img/menu/vanillastrawbery.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Vanilla Strawberry Ice</a><span>Rp 17.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Sajian minuman dingin yang terbuat dari powder vanilla dan sirup strawberry dengan tambahan susu
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-milk">
+            <img src="assets/img/menu/matchahot.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Matcha Hot</a><span>Rp 15.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Sajian minuman hangat yang terbuat dari powder matcha dengan tambahan susu
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-fresh">
-            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <img src="assets/img/menu/aurora.png" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Aurora</a><span>Rp 13.000</span>
             </div>
             <div class="menu-ingredients">
-            Sajian minuman menyegarkan yang terbuat dari strawberry, jeruk, lemon, gula, soda
+              Sajian minuman menyegarkan yang terbuat dari strawberry, jeruk, lemon, gula, soda  
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-fresh">
-            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <img src="assets/img/menu/violet.png" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Viola</a><span>Rp 13.000</span>
             </div>
             <div class="menu-ingredients">
-            Sajian minuman menyegarkan yang terbuat dari rose, lemon, gula, soda
+              Sajian minuman menyegarkan yang terbuat dari rose, lemon, gula, soda
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-fresh">
-            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <img src="assets/img/menu/sunset.png" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Sunset</a><span>Rp 13.000</span>
             </div>
             <div class="menu-ingredients">
-            Sajian minuman menyegarkan yang terbuat dari jeruk, lemon, apel, gula, soda
+              Sajian minuman menyegarkan yang terbuat dari jeruk, lemon, apel, gula, soda
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-fresh">
-            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <img src="assets/img/menu/jupiter.png" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Jupiter</a><span>Rp 13.000</span>
             </div>
             <div class="menu-ingredients">
-            Sajian minuman menyegarkan yang terbuat dari jeruk, strawberry, apel, gula, soda
+              Sajian minuman menyegarkan yang terbuat dari jeruk, strawberry, apel, gula, soda
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-food">
-            <img src="assets/img/menu/best1.png" class="menu-img" alt="">
+            <img src="assets/img/menu/nasigila.png" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Nasi Gila</a><span>Rp 15.000</span>
             </div>
             <div class="menu-ingredients">
-            Hidangan dengan komponen utama yakni sosis dan telur orak arik yang diolah dengan tambahan bumbu saus pedas gurih beserta combo nasi panas dan sayuran segar dijamin bikin ketagihan
+              Hidangan dengan komponen utama yakni sosis dan telur orak arik yang diolah dengan tambahan bumbu saus pedas gurih beserta combo nasi panas dan sayuran segar dijamin bikin ketagihan
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-food">
-            <img src="assets/img/menu/best2.png" class="menu-img" alt="">
+            <img src="assets/img/menu/chickenlava.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Chicken Lava Sauce</a><span>Rp 18.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Hidangan dengan komponen utama yakni olahan ayam krispi dengan tambahan saus lava bercitarasa pedas manis beserta combo nasi panas dan salad sayur segar dijamin nikmat
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-food">
+            <img src="assets/img/menu/chickenmatta.png" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Chicken Matta Chilli Sauce</a><span>Rp 18.000</span>
             </div>
             <div class="menu-ingredients">
-            Hidangan dengan komponen utama yakni ayam yang diolah menjadi ayam krispi dengan tambahan sambal mattah segar yang dijamin pedasnya nampol beserta combo nasi panas dan sayuran segar dijamin mantull
+              Hidangan dengan komponen utama yakni ayam yang diolah menjadi ayam krispi dengan tambahan sambal mattah segar yang dijamin pedasnya nampol beserta combo nasi panas dan sayuran segar dijamin mantull
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-food">
-            <img src="assets/img/menu/best3.png" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Chicken Barbeque Sauce</a><span>Rp 18.000</span>
-            </div>
-            <div class="menu-ingredients">
-            Hidangan dengan komponen utama yakni olahan ayam krispi dengan tambahan saus barbeque yang khas beserta combo nasi panas dan salad sayuran segar dijamin nikmat
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-food">
-            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Chicken Lava Sauce</a><span>Rp 19.000</span>
-            </div>
-            <div class="menu-ingredients">
-            Hidangan dengan komponen utama yakni olahan ayam krispi dengan tambahan saus lava bercitarasa pedas manis beserta combo nasi panas dan salad sayur segar dijamin nikmat
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-food">
-            <img src="assets/img/menu/best4.png" class="menu-img" alt="">
+            <img src="assets/img/menu/chickenstuffed.png" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Chicken Stuffed Cheese</a><span>Rp 19.000</span>
             </div>
             <div class="menu-ingredients">
-            Hidangan dengan komponen utama yakni ayam katsu berisi keju didalamnya yang disajikan dengan tambahan saus sambal yang nikmat beserta combo nasi panas dan salad sayuran segar dijamin bikin jatuh cinta
+              Hidangan dengan komponen utama yakni ayam katsu berisi keju didalamnya yang disajikan dengan tambahan saus sambal yang nikmat beserta combo nasi panas dan salad sayuran segar dijamin bikin jatuh cinta
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-food">
-            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <img src="assets/img/menu/chickenbarbeque.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Chicken Barbeque Sauce</a><span>Rp 18.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Hidangan dengan komponen utama yakni olahan ayam krispi dengan tambahan saus barbeque yang khas beserta combo nasi panas dan salad sayuran segar dijamin nikmat
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-food">
+            <img src="assets/img/menu/chickensaltedegg.png" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Chicken Salted Egg</a><span>Rp 20.000</span>
             </div>
             <div class="menu-ingredients">
-            Hidangan dengan komponen utama yakni potongan ayam krispi dengan tambahan sauce keju yang gurih krimi beserta combo nasi panas dan salad sayur segar dijamin nikmat
+              Hidangan dengan komponen utama yakni potongan ayam krispi dengan tambahan sauce keju yang gurih krimi beserta combo nasi panas dan salad sayur segar dijamin nikmat
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-snack">
-            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <img src="assets/img/menu/japanessepurin.png" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Japanese Purin</a><span>Rp 8.000</span>
             </div>
             <div class="menu-ingredients">
-            Lembutnya pudding susu dipadukan dengan caramel yang manis dijamin bikin moodmu naik
+              Lembutnya pudding susu dipadukan dengan caramel yang manis dijamin bikin moodmu naik 
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-snack">
-            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Churros</a><span>Rp 10.000</span>
-            </div>
-            <div class="menu-ingredients">
-            Fried cake dengan sensasi renyah diluar lembut didalam bikin nongkimu makin rileks
-            </div>
-          </div>
-
-          <div class="col-lg-6 menu-item filter-snack">
-            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <img src="assets/img/menu/frenchfries.png" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">French Fries</a><span>Rp 11.000</span>
             </div>
             <div class="menu-ingredients">
-            Snack Stick kentang goreng dengan cita rasa gurih, cocok buat menemani nongkimu
+              Snack Stick kentang goreng dengan cita rasa gurih, cocok buat menemani nongkimu
             </div>
           </div>
 
           <div class="col-lg-6 menu-item filter-snack">
-            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
+            <img src="assets/img/menu/churros.png" class="menu-img" alt="">
+            <div class="menu-content">
+              <a href="#">Churros</a><span>Rp 10.000</span>
+            </div>
+            <div class="menu-ingredients">
+              Fried cake dengan sensasi renyah diluar lembut didalam bikin nongkimu makin rileks
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-snack">
+            <img src="assets/img/menu/mixpotagis.png" class="menu-img" alt="">
             <div class="menu-content">
               <a href="#">Mix Potagis</a><span>Rp 15.000</span>
             </div>
             <div class="menu-ingredients">
-            Snack yang terdiri dari Onion Ring, Nugget, Sausage dan Potato, cocok buat menemani obrolan asik bareng teman-teman
+              Snack yang terdiri dari Onion Ring, Nugget, Sausage dan Potato, cocok buat menemani obrolan asik bareng teman-teman
             </div>
           </div>
         </div>

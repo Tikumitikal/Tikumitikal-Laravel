@@ -42,7 +42,7 @@
     <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="/">Tikumitikal</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="/">Titik Kumpul</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -66,7 +66,7 @@
     <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
       <div class="row">
         <div class="col-lg-8">
-          <h1>Welcome to <span>Tikumitikal</span></h1>
+          <h1>Welcome to <span>TIKUM</span></h1>
           <h2>The Best Coffee Testing Experience</h2>
 
           <div class="btns">
@@ -82,8 +82,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Events</h2>
-          <p>Selanggarakan Acara Yang Kamu Inginkan Di Tempat Kami</p>
+          <h2>WHY US</h2>
+          <p>Why Choose Our Cafe</p>
         </div>
 
         <div class="events-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
@@ -92,23 +92,19 @@
             <div class="swiper-slide">
               <div class="row event-item">
                 <div class="col-lg-6">
-                  <img src="assets/img/event-birthday.jpg" class="img-fluid" alt="">
+                  <img src="assets/img/why1.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Pesta Ulang Tahun</h3>
+                  <h3>Best Quality Food and Drink</h3>
                   <div class="price">
                     <p><span></span></p>
                   </div>
                   <p class="fst-italic">
-                    Rayakan ulang tahun di tempat kami dengan tambahan kemeriahan di tempat kami yang memiliki susana yang indah, kejutkan teman ulang tahunmu di tempat kami
+                    "Pemilihan bahan baku terbaik untuk menghasilkan kulitas hidangan yang nikmat dan memuaskan"
                   </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Menyediakan paket minuman yang bisa di pilih sendiri</li>
-                    <li><i class="bi bi-check-circled"></i> Menyediakan paket snack yang bisa kalian pilih sendiri</li>
-                    <li><i class="bi bi-check-circled"></i> Kue Ulang Tahun dimohon untuk disediakan sendiri sehingga kita hanya menyediakan tempat surprise dan juga tambahan makanan ringan</li>
-                  </ul>
-                  <p>
-                    Segeralah kontak kami untuk memesan acara acara khusus seperti Pesta Ulang Tahun
+                  <p style="text-align:justify">Tikum hadir sebagai cafe dalam versi F&B yang mementingkan kulitas terbaik bagi pelanggan, 
+                    pemilihan bahan baku dengan kulitas terjaga dan menghadirkan formulasi terbaik dalam penyajian 
+                    makanan dan minuman kepada pelanggan.
                   </p>
                 </div>
               </div>
@@ -117,23 +113,18 @@
             <div class="swiper-slide">
               <div class="row event-item">
                 <div class="col-lg-6">
-                  <img src="assets/img/event-private.jpg" class="img-fluid" alt="">
+                  <img src="assets/img/why2.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Tempat Diskusi</h3>
+                  <h3>Easy To Order</h3>
                   <div class="price">
                     <p><span></span></p>
                   </div>
                   <p class="fst-italic">
-                    Lakukanlah diskusi organisasimu di tempat kami, kami akan menyediakan tempat yang pasti akan memuaskan dan dapat mengukir pengalaman
+                    "Kemudahan dalam pemesanan disegala aktivitas yang pelanggan lakukan"
                   </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Pemesanan Meja Memiliki Kapasistas Maksimal 7</li>
-                    <li><i class="bi bi-check-circled"></i> Untuk Pemesanan Makanan dan Minuman akan kami sediakan setelah perwakilan tiba untuk memastikan kualitas </li>
-                    <li><i class="bi bi-check-circled"></i> Biaya Pemesanan akan tergantung dengan jumlah anggota yang akan datang</li>
-                  </ul>
-                  <p>
-                    Segeralah kontak kami untuk menyelenggarakan tempat diskusi yang terbaik bagi organisasimu
+                  <p style="text-align:justify">kami menyediakan pelayanan pemesanan online bagi para customer agar mereka lebih nyaman, sehingga nantinya para 
+                    customer dapat dengan mudah memilih tempat yang mereka inginkan.
                   </p>
                 </div>
               </div>
@@ -142,20 +133,14 @@
             <div class="swiper-slide">
               <div class="row event-item">
                 <div class="col-lg-6">
-                  <img src="assets/img/event-custom.jpg" class="img-fluid" alt="">
+                  <img src="assets/img/why3.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                  <h3>Pesta Khusus</h3>
+                  <h3>Fresh Coffee Bean</h3>
                   <p class="fst-italic">
-                    Adakan pesta dari acara khusus tertentu di tempat kami
+                    "Beans kopi dengan pilihan terbaik"
                   </p>
-                  <ul>
-                    <li><i class="bi bi-check-circled"></i> Pesta ditempat ini akan mengukir pengalamanmu dalam perayaan di tempat dengan suasana yang nyaman</li>
-                    <li><i class="bi bi-check-circled"></i> Penyediaan Makanan dan Minuman dapat kamu pilih dalam menu kami</li>
-                    <li><i class="bi bi-check-circled"></i> Tidak Menerima Pesanan Khusus</li>
-                  </ul>
-                  <p>
-                    Segeralah kontak kami dalam mengadakan acara khusus untuk memberikanmu pengalaman yang terbaik setelah pemesanan
+                  <p style="text-align:justify">Penggunaan 3 jenis biji kopi, yakni robusta, arabika dan housebland dalam membuat minuman dengan cita rasa khas dan fresh.
                   </p>
                 </div>
               </div>
@@ -168,51 +153,6 @@
       </div>
     </section><!-- End Events Section -->
   <main id="main">
-
-
-    <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Why Us</h2>
-          <p>Why Choose Our Restaurant</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4">
-            <div class="box" data-aos="zoom-in" data-aos-delay="100">
-              <span>01</span>
-              <h4>Easy To Order</h4>
-              <p>kami menyediakan pelayanan pemesanan online bagi para customer agar mereka lebih nyaman,
-                sehingga nantinya para customer dapat dengan mudah memilih tempat yang mereka inginkan</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="200">
-              <span>02</span>
-              <h4>Quality Coffee</h4>
-              <p>kopi yang kami sediakan dibuat secara langsung dengan bahan-bahan fresh melalui beberapa tahapan,
-                  sehingga menyediakan kopi berkualitas yang dapat memanjakan lidah para customer</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="box" data-aos="zoom-in" data-aos-delay="300">
-              <span>03</span>
-              <h4>Fresh Beans</h4>
-              <p>kami memilih beans kopi yang terbaik untuk kebutuhan pelanggan, kualitas rasa menjadi tolak ukur pertama yang kami
-                  komparasikan dengan berbagai metode seduh serta dengan tambahan komponen lainnya untuk menghasilkan variasi rasa
-                  minuman kopi yang pas</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Why Us Section -->
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
@@ -230,7 +170,7 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Asik. Bisa take over bar. Buat sendiri choco latte hot. :V
+                  Asik. Bisa take over bar. Buat sendiri choco latte hot. 
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
@@ -247,7 +187,7 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Iqbal Felayati</h3>
+                <h3>Felayati</h3>
                 <h4>Customer</h4>
               </div>
             </div><!-- End testimonial item -->
@@ -260,7 +200,7 @@
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Agus Suprihadi</h3>
+                <h3>Ariana</h3>
                 <h4>Customer</h4>
               </div>
             </div><!-- End testimonial item -->

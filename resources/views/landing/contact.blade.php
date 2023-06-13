@@ -125,24 +125,64 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="/store" method="post" role="form" class="php-email-form">
+
+
+        <form action="" method="post" action="{{ route('contact.store') }}">
                 @csrf
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <input type="text" name="nama" class="form-control" id="nama" placeholder="Your Name" required>
+                  <label>Nama</label>
+                  <input type="text" name="nama" class="form-control {{ $errors->has('nama') ? 'error' : '' }}" id="nama" placeholder="Your Name" required>
+                  
+        <!-- Error -->
+        @if ($errors->has('nama'))
+        <div class="error">
+            {{ $errors->first('nama') }}
+        </div>
+        @endif
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
+                  <label>Email</label>
+                  <input type="email" class="form-control {{ $errors->has('email') ? 'error' : '' }}" name="email" id="email" placeholder="Your Email" required>
+                   @if ($errors->has('email'))
+                   <div class="error">
+                    {{ $errors->first('email') }}
+                    </div>
+                     @endif
+                
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                <label>Subject</label>
+                <input type="text" class="form-control {{ $errors->has('subject') ? 'error' : '' }}" name="subject" id="subject" placeholder="Subject" required>
+                 @if ($errors->has('subject'))
+        <div class="error">
+            {{ $errors->first('subject') }}
+        </div>
+        @endif
               </div>
               <div class="form-group mt-3">
-                <textarea type="text" class="form-control" name="deskripsi" id="deskripsi" rows="8" placeholder="Message" required></textarea>
+                <label>Deskripsi</label>
+                <textarea type="text" class="form-control {{ $errors->has('Deskripsi') ? 'error' : '' }}" name="deskripsi" id="deskripsi" rows="4" placeholder="Message" required></textarea>
+               @if ($errors->has('Deskripsi'))
+        <div class="error">
+            {{ $errors->first('Deskripsi') }}
+        </div>
+        @endif
               </div>
-              <div class="text-center"><button type="submit" value="Add">Send Message</button></div>
+              <div class="text-center">
+              <button type="submit" class="btn btn-dark btn-block" name="send" value="Submit">Send Message</button>
+            </div>
             </form>
+            <br>
+            <br>
+                         <!-- Success message -->
+        @if(Session::has('success'))
+            <div class="alert alert-success">
+                {{Session::get('success')}}
+            </div>
+        @endif
+
+            
 
           </div>
 

@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('tb_contact', function (Blueprint $table) {
-            $table->id('contact_id');
+            $table->id();
             $table->string('nama');
             $table->string('email');
             $table->string('subject');
@@ -26,6 +26,7 @@ return new class extends Migration
      */
     public function down(): void
     {
-        //
+        
+        Schema::dropIfExists('tb_contact');
     }
 };

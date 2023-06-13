@@ -8,7 +8,7 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\MejaController;
 use App\Http\Controllers\ReservasiController;
 use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\Controller;
+use App\Http\Controllers\ContactController;
 
 
 /*
@@ -38,9 +38,9 @@ Route::get('/menu', function () {
     return view('landing.menu');
 });
 
-Route::get('/contact', function () {
-    return view('landing.contact');
-});
+Route::get('/contact', [ContactController::class, 'createForm']);
+Route::post('/contact', [ContactController::class, 'ContactUsForm'])->name('contact.store');
+
 
 Route::post('/store',[Controller::class,'store']);
 
@@ -72,3 +72,5 @@ Route::delete('/dataproduct/{id}', [ProductController::class, 'destroy'])->middl
 Route::get('/datareservasi', [ReservasiController::class, 'index'])->middleware('IsLogin');
 Route::put('/datareservasi/{id}', [ReservasiController::class, 'update'])->middleware('IsLogin');
 Route::get('/dashboard', [DashboardController::class, 'index'])->middleware('IsLogin');
+
+

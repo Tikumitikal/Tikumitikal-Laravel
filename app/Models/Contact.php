@@ -1,14 +1,15 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Contact extends Model
 {
-
     use HasFactory;
-    protected $table='tb_contact';
-
-    protected $fillable = ['nama', 'email', 'subject', 'deskripsi'];
+    protected $primaryKey = 'id';
+    public $table = 'tb_contact';
+    public $fillable = ['nama', 'email', 'subject', 'deskripsi'];
+    public $timestamps = true;
 }

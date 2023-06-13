@@ -24,7 +24,7 @@ Route::post('register', [ApiAuthController::class, 'register']);
 Route::post('product', [ApiProductController::class, 'all']);
 Route::get('table', [ApiMejaController::class, 'all']);
 Route::get('kategori', [ApiKategoriController::class, 'all']);
-Route::get('product-top', [ApiProductController::class, 'topSoldProducts']);
+Route::get('product-top', [ApiProductController::class, 'topSoldProducts']);    	
 
 Route::middleware('auth:sanctum')->group(function () {
     Route::post('logout', [ApiAuthController::class, 'logout']);
